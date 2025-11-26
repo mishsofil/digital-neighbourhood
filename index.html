@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>London Map Artwork</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="london-map.jpeg" alt="London Map Artwork" class="map-image" />
+    
+    <button class="marker1" onclick="openLabel1()"></button>
+    <button class="marker2" onclick="openLabel2()"></button>
+    <button class="marker3" onclick="openLabel3()"></button>
+
+    <div class="label1" id="label1">
+      <button onclick="closeLabel1()">&#x2715</button>
+      <h1>Location 1</h1>
+      <h2>what.three.words</h2>
+    </div>
+    <div class="label2" id="label2">
+      <button onclick="closeLabel2()">&#x2715</button>
+      <h1>Location 2</h1>
+      <h2>what.three.wordss</h2>
+    </div>
+    <div class="label3" id="label3">
+      <button onclick="closeLabel3()">&#x2715</button>
+      <h1>Location 3</h1>
+      <h2>what.three.wordsss</h2>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
