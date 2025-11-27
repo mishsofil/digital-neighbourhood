@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Neighbourhood Forum</title>
+
+  <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js"></script>
+
+  <link rel="stylesheet" href="forum.css">
+</head>
+
+<body>
+
+  <h1 class="title">Hidden Neighbourhood Forum</h1>
+  <p class="subtitle">What do these spaces mean to you? What's been on your mind? Leave a message for your neighbours.</p>
+
+  <div class="note-input">
+    <textarea id="noteText" placeholder="Write something..."></textarea>
+    <button id="addNoteBtn">Add Note</button>
+  </div>
+
+  <div id="notesBoard" class="notes-board"></div>
+
+  <script src="forum.js"></script>
+</body>
+</html>
