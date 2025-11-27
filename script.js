@@ -53,3 +53,14 @@ function showPrompt(id) {
     });
 }
 
+
+//COMMUNITY SPACE
+
+//show button when 3 scanned
+if (scans["trellick"] && scans["meanwhile"] && scans["wech"]) {
+    document.getElementById("community-btn").classList.add("show");
+}
+
+document.getElementById("community-btn").addEventListener("click", () => {
+    window.location.href = "forum.html";
+});
